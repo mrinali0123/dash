@@ -1,0 +1,21 @@
+.circularcolor{
+    height: 10px;
+    background-color: 'red';
+    width: 10px;
+    display: inline-block;
+}
+.roundedcorner{
+    border-radius:30px;
+    background-color: pink;
+}
+.outerdiv{
+    background-color: white;
+    top: -15px;
+}
+.relativeclas{
+    position: relative;
+}
+.absolutreeclas{
+    position: absolute;
+    left: 30%;
+}

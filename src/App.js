@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import SideMenu from './SideMenu/sideMenu'
 import { Container } from 'semantic-ui-react';
+import MenuSegment from './Mainheader/Outerheader';
+import Secondaryheader from './Mainheader/Secondsection/Wholecomponent';
 
 class App extends Component {
   render() {
@@ -18,7 +20,8 @@ class App extends Component {
         </p>
       </div>
         <div className="">
-     
+     	 <MenuSegment/>
+      <Secondaryheader/>
         <SideMenu/>
       
         </div>
