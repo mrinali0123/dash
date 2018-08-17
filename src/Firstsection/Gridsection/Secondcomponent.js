@@ -5,7 +5,7 @@ const Secondcomponent =()=>(
   <List style={{ marginTop: '1em',marginLeft:'1em' }} divided>
     <List.Item>
       <List.Content floated='right'>
-      <Label style={{borderRadius:'4em'}}>
+      <Label as='a' style={{borderRadius:'4em'}}>
              <Dropdown  text='Measures'>
                <Dropdown.Menu>
                  <Dropdown.Item>List Item</Dropdown.Item>
