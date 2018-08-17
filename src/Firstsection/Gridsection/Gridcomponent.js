@@ -3,7 +3,7 @@ import {Grid,Container,List,GridColumn} from 'semantic-ui-react';
 import Firstcomponent from './Firstcomponent';
 import Secondcomponent from './Secondcomponent';
 
-const Secondaryheader =()=>(
+const Gridcomponent =()=>(
 
 <Container>
 
@@ -64,4 +64,4 @@ const Secondaryheader =()=>(
     </Grid>
 </Container>
 )
-export default Secondaryheader;
+export default Gridcomponent;
