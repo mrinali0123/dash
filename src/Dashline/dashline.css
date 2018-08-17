@@ -1,0 +1,8 @@
+.abc{
+    background-color: red;
+    display: inline-block;
+    width: 100%
+}
+.ui.list > .item .header.bigSize{
+    font-size: 2em !important;
+}

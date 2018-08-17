@@ -2,6 +2,7 @@ import React from 'react';
 import {Grid,Container,List,GridColumn} from 'semantic-ui-react';
 import Firstcomponent from './Firstcomponent';
 import Secondcomponent from './Secondcomponent';
+import Grid3 from './grid3';
 
 const Gridcomponent =()=>(
 
@@ -39,7 +40,10 @@ const Gridcomponent =()=>(
 
 
         <Grid.Column width={6}>
-          <div className="dd"/>
+          <div className="dd">
+          < Grid3/>
+          </div>
+          
         </Grid.Column>
         
       </Grid.Row>
