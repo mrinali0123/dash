@@ -26,13 +26,6 @@ export default class Outerheader extends Component{
                     <span>DASHBOARD IS LIVE</span>
                     <Label color='teal' circular size='mini'/>
                     <span>RPC CONECTIVITY  IS LIVE</span>
-                      
-                     
-
-
-
-
-                    {/* <button onClick={this.popupclick}> click here</button> */}
                 </div>
               
             <Menu text>

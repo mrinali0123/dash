@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import SideMenu from './SideMenu/sideMenu'
 import { Container } from 'semantic-ui-react';
@@ -11,13 +11,13 @@ class App extends Component {
     return (
       <div className="App">
       <div>
-        <header className="App-header">
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
       </div>
         <div className="">
      	 <MenuSegment/>
