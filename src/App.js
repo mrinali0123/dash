@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
-import SideMenu from './SideMenu/sideMenu'
-import { Container } from 'semantic-ui-react';
-import Outerheader from './Firstsection/Headersection/Outerheader';
-import Gridcomponent from './Firstsection/Gridsection/Gridcomponent';
-import DashLine from './Dashline/dashline'
+import Outerheader from './Headersection/Outerheader';
+import MainDisplayComponent from './MainDisplay/mainDisplayComponent';
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
          <Outerheader/>
-         <DashLine/>
+         <MainDisplayComponent/>
+         {/* <DashLine/>
          <Gridcomponent/>
-         {/* <SideMenu/> */}
+         <SideMenu/> */}
       </div>
 
 

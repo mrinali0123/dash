@@ -1,6 +1,6 @@
 import React ,{Component} from 'react'
 import {Header , Grid, Container, List,Icon,Input,Divider, Segment, ListItem} from 'semantic-ui-react'
-import '../../App.css'
+import '../../../../App.css'
 export default class  Grid3 extends Component {
     render(){
       
