@@ -1,7 +1,7 @@
 import React ,{Component} from 'react'
 import {Icon,Menu,Sidebar,   Segment} from 'semantic-ui-react'
 
-// 
+ 
 export default class SideMenu extends Component {
   state={activeItem:'tachometer alernate',
         colour:'blue'}
