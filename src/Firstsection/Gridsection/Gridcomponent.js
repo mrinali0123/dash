@@ -2,8 +2,8 @@ import React from 'react';
 import {Grid,Container,List,GridColumn} from 'semantic-ui-react';
 import Firstcomponent from './Firstcomponent';
 import Secondcomponent from './Secondcomponent';
-import Grid3 from './grid3';
-
+import Thirdcomponent from './Thirdcomponent';
+import Fourthcomponent from './Secondcomponentsection/fourthcomponent';
 const Gridcomponent =()=>(
 
 <Container>
@@ -41,7 +41,7 @@ const Gridcomponent =()=>(
 
         <Grid.Column width={6}>
           <div className="dd">
-          < Grid3/>
+          < Thirdcomponent/>
           </div>
           
         </Grid.Column>
@@ -51,7 +51,7 @@ const Gridcomponent =()=>(
       <Grid.Row>
            <Grid.Column width={6}>
           <div className="dd" >
-    
+            <Fourthcomponent/>
           </div>
         </Grid.Column>
 

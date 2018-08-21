@@ -1,7 +1,7 @@
 import React ,{Component} from 'react'
 import {Header , Grid, Container, List,Icon,Input,Divider, Segment, ListItem} from 'semantic-ui-react'
 import '../../App.css'
-export default class  Grid3 extends Component {
+export default class  Thirdcomponent extends Component {
     render(){
       
         return(
