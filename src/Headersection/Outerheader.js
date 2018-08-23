@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Menu,Segment, List,Icon,Responsive,Container, Label} from 'semantic-ui-react';
+import {Menu,Icon,Container, Label} from 'semantic-ui-react';
 import './outerheader.css';
 
 export default class Outerheader extends Component{

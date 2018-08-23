@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment,Divider,Menu,Header,Dropdown,Label,List}from 'semantic-ui-react';
+import { Divider,Dropdown,Label,List}from 'semantic-ui-react';
 const Secondcomponent =()=>(
     <div>
   <List style={{ marginTop: '1em',marginLeft:'1em' }} divided>

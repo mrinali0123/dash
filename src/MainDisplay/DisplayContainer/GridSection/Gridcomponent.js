@@ -1,14 +1,15 @@
 import React from 'react';
-import {Grid,Container,List,GridColumn} from 'semantic-ui-react';
-import Firstcomponent from './Firstcomponent';
-import Secondcomponent from './Secondcomponent';
-import Thirdcomponent from './Thirdcomponent';
+import { Grid, Container } from 'semantic-ui-react';
+import Firstcomponent from './Firstcomponentsection/Firstcomponent';
+import Secondcomponent from './Firstcomponentsection/Secondcomponent';
+import Thirdcomponent from './Firstcomponentsection/Thirdcomponent';
 import Fourthcomponent from './Secondcomponentsection/fourthcomponent';
-const Gridcomponent =()=>(
+import Fifthcomonent from './Secondcomponentsection/Fifthcomponent';
+const Gridcomponent = () => (
 
-<Container>
+  <Container>
 
-<style>{`
+    <style>{`
      
      .dd{
        align-content: ;
@@ -26,14 +27,14 @@ const Gridcomponent =()=>(
     <Grid centered columns={3}>
       <Grid.Row >
         <Grid.Column width={6}>
-        <div className="dd">
-           <Firstcomponent/>
-        </div>
-           </Grid.Column>
-           {/** second component*/}
+          <div className="dd">
+            <Firstcomponent />
+          </div>
+        </Grid.Column>
+        {/** second component*/}
         <Grid.Column width={4}>
           <div className="dd" >
-          <Secondcomponent/>
+            <Secondcomponent />
           </div>
 
         </Grid.Column>
@@ -41,22 +42,24 @@ const Gridcomponent =()=>(
 
         <Grid.Column width={6}>
           <div className="dd">
-          < Thirdcomponent/>
+            < Thirdcomponent />
           </div>
-          
+
         </Grid.Column>
-        
+
       </Grid.Row>
 
       <Grid.Row>
-           <Grid.Column width={6}>
+        <Grid.Column width={6}>
           <div className="dd" >
-            <Fourthcomponent/>
+            <Fourthcomponent />
           </div>
         </Grid.Column>
 
         <Grid.Column width={4}>
-          <div className="dd"/>
+          <div className="dd">
+            <Fifthcomonent />
+          </div>
         </Grid.Column>
 
         <Grid.Column width={6}>
@@ -66,6 +69,6 @@ const Gridcomponent =()=>(
       </Grid.Row>
 
     </Grid>
-</Container>
+  </Container>
 )
 export default Gridcomponent;

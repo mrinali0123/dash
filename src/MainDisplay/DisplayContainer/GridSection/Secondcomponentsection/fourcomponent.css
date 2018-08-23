@@ -1,0 +1,41 @@
+.containerdiv{
+    width: 100%;
+    padding: 15PX;
+}
+.parentonediv{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.parentonechildfirst{
+width: 90%;
+float: left;
+}
+.parentonechildsecond{
+    width: 10%;
+    float: left; 
+}
+.parentwodiv{
+width: 100%;
+float: left;
+margin-bottom: 14%;
+}
+.innerparentone{
+float: left;
+width: 50%;
+}
+/* .innerparentchildone{
+float: left;
+width: 100%;
+
+} */
+.innerparentchildone{
+    margin-bottom: 10%;
+}
+.parenthreediv{
+    width: 100%;
+    float: left;
+}
+.childdiv{
+    float: left;
+    width: 25%;
+}

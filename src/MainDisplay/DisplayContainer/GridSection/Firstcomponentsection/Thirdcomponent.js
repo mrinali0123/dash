@@ -1,42 +1,19 @@
 import React ,{Component} from 'react'
-import {Header , Grid, Container, List,Icon,Input,Divider, Segment, ListItem} from 'semantic-ui-react'
-import '../../App.css'
+import {Header , Grid, List,Icon,Divider} from 'semantic-ui-react'
+import './thirdcomponent.css'
 export default class  Thirdcomponent extends Component {
     render(){
       
         return(
             <div className="box3" style={{backgroundColor:'#fff'}}>
-              {/* <div style={{display:'inline',
-            }}>
-                <div style={{float:'left'}}>
-                <Header as='h2' >
-                Onboarding Status
-                </Header>
-                </div>
-                <div className="floatting" style={{float:'right'}}>
-                <Icon  name="external alternate" size='large'/> 
-                </div>
-              </div> */}
             <List >
               <List.Item> <List.Content><Header as='h2' >
                 Onboarding Status
                 </Header></List.Content><List.Content floated='right'>
-                <Icon  name="external alternate" size='large'/> 
+                <Icon  name="external alternate" size='small'/> 
                     </List.Content> 
                 </List.Item>
               </List>
-            
-            
-            {/* <List >
-                <List.Item >
-                <List.Content >
-         <Header style={{fontSize:'1.2em'}}>Onboarding Status </Header>
-         </List.Content>
-                    <List.Content floated='right'>
-                    <Input iconPosition="left" icon="search" placeholder="Search"/> 
-                    </List.Content> 
-                    </List.Item>
-            </List> */}
             <Divider/>
             Status
             <Grid columns={2} divided>

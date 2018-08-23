@@ -1,0 +1,11 @@
+.ui.selection.dropdown{
+    background:none !important;
+    border:none !important;
+    border-radius:none !important;
+    line-height :none !important;
+  }
+  .ui.grid > .column:not(.row) {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+     

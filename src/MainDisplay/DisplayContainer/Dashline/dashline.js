@@ -1,5 +1,5 @@
 import React ,{Component} from 'react';
-import {List, Header, Input, Segment } from 'semantic-ui-react';
+import {List, Input, Segment } from 'semantic-ui-react';
 import './dashline.css';
 
 export default class DashLine extends Component{

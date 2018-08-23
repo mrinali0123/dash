@@ -1,0 +1,34 @@
+.containnertwo{
+    width: 100%;
+    padding: 15PX;
+}
+.firstparentdiv{
+    width:100%;
+    margin-bottom: 18%;
+}
+.firstparentchild{
+    width: 90%;
+    float: left;
+}
+.firstparentsecondchild{
+    width: 10%;
+    float: right;
+}
+.secondparentdiv{
+    width: 100%;
+}
+.thirdparentdiv{
+    width: 100%;
+    margin-bottom: 15%;
+}
+.lastparentdiv{
+    width: 100%;
+}
+.lastparentchildone{
+    width: 80%;
+    float: left;
+}
+.lastparentchildtwo{
+    float: left
+    
+}
