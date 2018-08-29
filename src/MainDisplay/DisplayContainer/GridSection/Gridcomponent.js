@@ -5,34 +5,35 @@ import Secondcomponent from './Firstcomponentsection/Secondcomponent';
 import Thirdcomponent from './Firstcomponentsection/Thirdcomponent';
 import Fourthcomponent from './Secondcomponentsection/fourthcomponent';
 import Fifthcomonent from './Secondcomponentsection/Fifthcomponent';
+import SixComponent from './Secondcomponentsection/Sixthcomponent';
+
+<style>{`
+     
+.dd{
+  width:100%
+  align-content: ;
+  background-color: #fff;
+  display: flex;
+  flex-wrap:wrap;
+ //  flex-direction: column;
+ justify-content: left;
+   min-height: 20em;
+}
+`}</style>
 const Gridcomponent = () => (
 
-  <Container>
+ 
+  
 
-    <style>{`
-     
-     .dd{
-       align-content: ;
-       background-color: #fff;
-       display: flex;
-       flex-wrap:wrap;
-      //  flex-direction: column;
-      justify-content: left;
-        min-height: 20em;
-     }
-     
-     }
-     `}</style>
-
-    <Grid centered columns={3}>
-      <Grid.Row >
-        <Grid.Column width={6}>
+    <Grid  columns={3}>
+      {/* <Grid.Row > */}
+        <Grid.Column computer={6} mobile={16} tablet={8}>
           <div className="dd">
             <Firstcomponent />
           </div>
         </Grid.Column>
         {/** second component*/}
-        <Grid.Column width={4}>
+        <Grid.Column computer={4} mobile={16} tablet={8}>
           <div className="dd" >
             <Secondcomponent />
           </div>
@@ -40,35 +41,36 @@ const Gridcomponent = () => (
         </Grid.Column>
 
 
-        <Grid.Column width={6}>
+        <Grid.Column computer={6} mobile={16} tablet={8}>
           <div className="dd">
             < Thirdcomponent />
           </div>
 
         </Grid.Column>
 
-      </Grid.Row>
+      {/* </Grid.Row> */}
 
-      <Grid.Row>
-        <Grid.Column width={6}>
+      {/* <Grid.Row> */}
+        <Grid.Column computer={6} mobile={16} tablet={8}>
           <div className="dd" >
             <Fourthcomponent />
           </div>
         </Grid.Column>
 
-        <Grid.Column width={4}>
+        <Grid.Column computer={4} mobile={16} tablet={8}>
           <div className="dd">
             <Fifthcomonent />
           </div>
         </Grid.Column>
 
-        <Grid.Column width={6}>
+        <Grid.Column computer={6} mobile={16} tablet={8}>
           <div className="dd" />
+          <SixComponent/>
         </Grid.Column>
 
-      </Grid.Row>
+      {/* </Grid.Row> */}
 
     </Grid>
-  </Container>
+
 )
 export default Gridcomponent;

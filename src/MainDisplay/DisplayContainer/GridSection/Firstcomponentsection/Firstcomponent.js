@@ -1,18 +1,10 @@
 import React from 'react';
-import {Dropdown,List,Label} from 'semantic-ui-react';
-<style>{`
-     
-     .dd{
-    //    align-content: center;
-    //    display: flex;
-    //    flex-direction: column;
-    //    justify-content: left;
-          min-height: 15em;
-          background-color: #fff;
-     }
-     
-     }
-     `}</style>
+import {Dropdown,List,Label, Grid} from 'semantic-ui-react';
+import AmCharts from "@amcharts/amcharts3-react";
+import HOC from '../backgroundHOC';
+
+import Test from './lineChart2';
+
 const Firstcomponent =()=>(
     
     <div>
@@ -46,6 +38,14 @@ const Firstcomponent =()=>(
           </Label>
       </List.Item>
 </List>
+<Grid columns={2}>
+  <Grid.Column width={4}>
+  </Grid.Column>
+  <Grid.Column width={12}>
+  <Test/>
+  </Grid.Column>
+
+</Grid>
 </div>
 )
-export default Firstcomponent;
+export default HOC(Firstcomponent);

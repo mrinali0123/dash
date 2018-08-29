@@ -1,8 +1,9 @@
 import React from 'react';
 import { Divider,Dropdown,Label,List}from 'semantic-ui-react';
+import HOC from '../backgroundHOC';
 const Secondcomponent =()=>(
     <div>
-  <List style={{ marginTop: '1em',marginLeft:'1em' }} divided>
+  <List style={{ marginLeft:'1em' }} divided>
     <List.Item>
       <List.Content floated='right'>
       <Label as='a' style={{borderRadius:'4em'}}>
@@ -59,4 +60,4 @@ const Secondcomponent =()=>(
  View All
   </div>
 ) 
-export default Secondcomponent;
+export default HOC(Secondcomponent);

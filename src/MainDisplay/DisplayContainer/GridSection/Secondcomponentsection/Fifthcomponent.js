@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Dropdown } from 'semantic-ui-react';
 import './fifthcomponent.css';
+import HOC from '../backgroundHOC';
+
 // import { findIconDefinition } from '@fortawesome/fontawesome-svg-core';
 
-export default class Fifthcomonent extends Component {
+ class Fifthcomonent extends Component {
 
     render() {
         // const countryOptions = [ { key: 'af', value: 'af', flag: 'af', text: 'Afghanistan' }, { key: 'af', value: 'af', flag: 'af', text: 'Afghanistan' }, { key: 'af', value: 'af', flag: 'af', text: 'Afghanistan' }]
@@ -63,3 +65,4 @@ export default class Fifthcomonent extends Component {
         );
     }
 }
+export default HOC(Fifthcomonent);

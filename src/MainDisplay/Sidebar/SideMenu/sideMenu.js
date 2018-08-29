@@ -1,8 +1,16 @@
 import React ,{Component} from 'react'
 import {Icon,Menu,Sidebar} from 'semantic-ui-react'
+import './Css_1.css'
+// import HOC_SideMenu from './HOCforSideMenu';
 
- 
-export default class SideMenu extends Component {
+//  <style>{`
+//  .ui.sidebar.stylechange{
+//    position:absolute !important;
+//  }
+//  `}
+
+//  </style>
+class SideMenu extends Component {
   state={activeItem:'tachometer alernate',
         colour:'blue'}
         handleOnClick=(e,{name})=>{
@@ -12,8 +20,8 @@ export default class SideMenu extends Component {
   render(){
     const {activeItem}=this.state;
     return(
-      
-      <Sidebar as={Menu} animation='overlay' icon='labeled' color={this.state.colour} vertical visible width='thin'>
+      <div>
+      <Sidebar as={Menu}  animation='overlay' icon='labeled' color={this.state.colour} vertical visible width='thin'>
      
       <Menu.Item as='a' 
       name="tachometer alternate"
@@ -53,9 +61,11 @@ export default class SideMenu extends Component {
       </Menu.Item>
      
     </Sidebar>
+     </div>
    
     )
   }
   
 }
-    
+export default SideMenu;
+// export default  HOC_SideMenu(SideMenu);
